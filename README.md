@@ -34,7 +34,7 @@ pysam
 
 ### Usage:
 
-```python
+```
 python metasite_coverage.py
 
 options:                                                                                                                                              
