@@ -3,6 +3,25 @@
 
 This tool generates mean coverage plot around list of sites.
 
+### Requirements:
+
+* Python3
+* samtools
+
+
+### Python modules:
+
+* matplotlib
+* numpy
+* pandas
+* pysam
+
+```
+git clone https://github.com/BioInfoData/metasite_coverage
+cd metasite_coverage
+
+```
+
 ### Input files:
 1. BAM file
 2. List of sites in BED format
@@ -21,16 +40,6 @@ This tool generates mean coverage plot around list of sites.
 4. plot data +- range around sites.
 5. plot second  focus plot in range +- 5 around sites.
 
-### Requirements:
-Python3
-
-matplotlib
-
-numpy
-
-pandas
-
-pysam
 
 ### Usage:
 
@@ -49,3 +58,4 @@ options:
                         ```
   --min_coverage MIN_COVERAGE
                         min coverage value to include in site in analysis. Not required, default is 0
+```
