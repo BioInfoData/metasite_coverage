@@ -6,6 +6,7 @@ This tool generates mean coverage plot around list of sites.
 ### Requirements:
 
 * Python3
+* pip
 * samtools
 
 
