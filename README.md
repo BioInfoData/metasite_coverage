@@ -9,22 +9,25 @@ This tool generates mean coverage plot around list of sites.
 * samtools
 
 
-### Python modules:
+#### Python modules:
 
 * matplotlib
 * numpy
 * pandas
 * pysam
 
+### Installation:
+
 ```
 git clone https://github.com/BioInfoData/metasite_coverage
 cd metasite_coverage
+pip install -r requirements.txt
 
 ```
 
 ### Input files:
 1. BAM file
-2. List of sites in BED format
+2. List of sites in BED6 format
 
 
 ### Output files:
