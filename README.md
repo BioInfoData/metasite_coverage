@@ -36,14 +36,6 @@ pip install -r requirements.txt
 2. Additional plot focus in range +- 5 around sites (.png image)
 3. Table with raw coverage data for each site (.csv file)
 
-### Steps of analysis:
-1. For each site calculate coverage around the site (using pysam).
-2. Filter out sites with 0 coverage (or other min is given by the user).
-3. For each site normalize to max value.
-4. Sum all coverage from all sites (normalised) to one vector.
-4. plot data +- range around sites.
-5. plot second  focus plot in range +- 5 around sites.
-
 
 ### Usage:
 
@@ -63,3 +55,12 @@ options:
   --min_coverage MIN_COVERAGE
                         min coverage value to include in site in analysis. Not required, default is 0
 ```
+
+### Steps of analysis:
+1. For each site calculate coverage around the site (using pysam).
+2. Filter out sites with 0 coverage (or other min is given by the user).
+3. For each site normalize to max value.
+4. Sum all coverage from all sites (normalised) to one vector.
+4. plot data +- range around sites.
+5. plot second  focus plot in range +- 5 around sites.
+
